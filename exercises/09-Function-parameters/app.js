@@ -1,13 +1,7 @@
 // Your code goes here:
 
-function renderPerson() {
-    var name = "Bob";
-    var age = 23;
-    var birth = "05/22/83";
-    var eyes = "green";
-    var sex = "male";
-    var person = name.concat(" is a ", 23," years old ", sex, " born in ", birth, " with ", eyes);
-    return person;
+function renderPerson (name,bday,eyes,age,gender){
+    return `${name} is a ${age} years old ${gender} born in ${bday} with ${eyes} eyes`
 }
 
   ///*** Do not edit below this line ****/

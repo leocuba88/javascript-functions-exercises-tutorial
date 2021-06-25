@@ -11,5 +11,13 @@ var euroValue = dollarToEuro(dollarValue);
 
 //console.log(dollarToEuro() * euroToYen());
 var result = euroToYen(euroValue);
-console.log(result)
+//console.log(result)
+
+//console.log(euroToYen(dollarToEuro(137)))
+
+function dollarToYen(dollarValue) {
+   return euroToYen(dollarToEuro(dollarValue));
+}
+
+console.log(dollarToYen(137))
 
